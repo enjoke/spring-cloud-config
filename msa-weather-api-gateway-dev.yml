@@ -1,0 +1,13 @@
+spring:
+	application:
+    		name: msa-weather-proxy-server
+zuul:
+  	routes:
+    		city:
+      			path: /city/**
+      			serviceId: msa-weather-city-server
+    		data:
+      			path: /data/**
+      			serviceId: msa-weather-data-server
+server:
+ 	port: 8081

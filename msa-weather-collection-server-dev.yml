@@ -1,0 +1,16 @@
+spring:
+  	application:
+    		name: msa-weather-collection-server
+  	redis:
+    		host: 192.168.119.163
+    		port: 6379
+
+
+server:
+  	port: 8085
+
+weather:
+  	url: https://www.sojson.com/open/api/weather/json.shtml?city=
+  	timeout: 1800
+  	interval: 1800
+  	sleep: 4000

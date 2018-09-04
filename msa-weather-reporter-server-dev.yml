@@ -1,0 +1,8 @@
+spring:
+  	application:
+    		name: msa-weather-reporter-server
+feign:
+  	hystrix:
+    		enabled: true
+server:
+  	port: 8083
