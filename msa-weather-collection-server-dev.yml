@@ -1,5 +1,5 @@
 spring:
-  	application:
+        application:
     		name: msa-weather-collection-server
   	redis:
     		host: 192.168.119.163
