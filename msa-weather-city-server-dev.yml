@@ -1,7 +1,8 @@
 server:
         port: 8082
-application:
-        name: msa-weather-city-server
+spring:
+        application:
+                name: msa-weather-city-server
         redis:
                 host: 192.168.119.163
                 port: 6379
