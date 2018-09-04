@@ -2,7 +2,7 @@ spring:
         application:
                 name: msa-weather-proxy-server
 zuul:
-  	routes:
+        routes:
     	        city:
       		        path: /city/**
       		        serviceId: msa-weather-city-server
